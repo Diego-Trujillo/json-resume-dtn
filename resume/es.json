@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Diego Trujillo",
+    "label": "ngeniero en Sistemas Computacionales ES",
+    "picture": "/images/Profile.png",
+    "email": "diego.tn94@gmail.com",
+    "phone": "+52 (722) 585-7373",
+    "website": "http://dtn.me",
+    "summary": "Ingeniero en Sistemas Computacionales",
+    "location": {
+      "address": "Lago Alberto #300 depto. 3207",
+      "postalCode": "MX 11320",
+      "city": "Miguel Hidalgo",
+      "countryCode": "MX",
+      "region": "Ciudad de México"
+    },
+    "profiles": [
+    {
+      "network": "Twitter",
+      "username": "diego_tn94",
+      "url": "https://twitter.com/diego_tn94
+    },
+    {
+      "network": "LinkedIn",
+      "username": "diego-trujillo-norberto",
+      "url": "https://www.linkedin.com/in/diego-trujillo-norberto/"
+    },
+    {
+        "network": "GitHub",
+        "username": "Diego-Trujillo",
+        "url": "https://github.com/Diego-Trujillo"
+    }
+    ]
+  },
+  "work": [{
+    "company": "Grupo Empresarial EISEI",
+    "position": "Analista de Inteligencia Artificial",
+    "website": "http://eisei.net.mx/",
+    "startDate": "2017-02-01",
+    "endDate": "Actualidad",
+    "summary": "Description...",
+    "highlights": [
+      
+    ]
+  },
+  {
+    "company": "Grupo Financiero Banorte",
+    "position": "Becario",
+    "website": "https://www.banorte.com/",
+    "startDate": "2017-06-01",
+    "endDate": "2018-02-01",
+    "summary": "Description...",
+    "highlights": [
+      
+    ]
+  },
+  {
+    "company": "Access Systems",
+    "position": "Fullstack Developer",
+    "website": "https://www.accystime.com/",
+    "startDate": "2015-11-01",
+    "endDate": "2016-06-01",
+    "summary": "Desarrollé una aplicación Mobile-First utilizando servicios de Geolocalización utilizando JQuery y Javascript. Adicionalmente desarrollé una plataforma administrativa básica para el servicio utilizando Scriptcase y PHP.",
+    "highlights": [
+      
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Un Techo para mi País",
+    "position": "Volunteer",
+    "website": "https://www.techo.org/",
+    "startDate": "2011-10-01",
+    "endDate": "2012-03-01",
+    "summary": "Colaboré con la colecta de fondos y construí una casa prefabricada para una familia en los poblados cercanos al Valle de Toluca.",
+    "highlights": [ ]
+  },
+  {
+    "organization": "GuiaTEC Toluca",
+    "position": "Mentor de Matemáticas",
+    "website": "https://www.techo.org/",
+    "startDate": "2012-01-01",
+    "endDate": "2012-12-01",
+    "summary": "Impartí clases de matemáticas sabatinas a alumnos de secundaria. Preparé material didáctico y de lectura, así como un sistema de evaluación para su desempeño.",
+    "highlights": [ ]
+  }],
+  "education": [{
+    "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
+    "area": "Ing. en Sistemas Computacionales",
+    "studyType": "Universidad",
+    "startDate": "2013-08-01",
+    "endDate": "2018-12-01",
+    "gpa": "93/100",
+    "courses": [
+      "Machine Learning",
+      "Introducción a la Computación Cuántica",
+      "Mainframe y Z/OS",
+      "Laboratorio Web con Blockchain"
+    ]
+  },
+  {
+    "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Toluca",
+    "area": "Bachillerato Internacional",
+    "studyType": "Preparatoria",
+    "startDate": "2010-08-01",
+    "endDate": "2013-05-01",
+    "gpa": "92/100",
+    "courses": [
+      "Matemáticas Avanzadas BI",
+      "Lengua Española Avanzada BI",
+      "Lengua Inglesa Avanzada BI"
+    ]
+  }],
+  "awards": [{
+    "title": "Mención Honorífica",
+    "date": "2018-12-01",
+    "awarder": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
+    "summary": "Segundo mejor premio de la generación"
+  },
+  {
+    "title": "Ganador del Reto Banorte-IBM-ITESM",
+    "date": "2018-12-01",
+    "awarder": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
+    "summary": "Formé parte del equipo ganador del reto que desarrolló una aplicación de KYC utilizando IBM Hyperledger Blockchain."
+  }],
+  "publications": [],
+  "skills": [{
+    "name": "Desarrollo Backend",
+    "level": "Master",
+    "keywords": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "SQL",
+    ]
+  }],
+  "languages": [{
+    "name": "Español",
+    "level": "Lengua nativa"
+  },
+  {
+    "name": "English",
+    "level": "Bilingue"
+  }],
+  "interests": [{
+    "name": "Music",
+    "keywords": [
+      "Composición",
+      "Alternativo",
+      "Batería"
+    ]
+  }],
+  "references": []
+}
