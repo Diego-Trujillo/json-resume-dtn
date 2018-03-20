@@ -1,0 +1,15 @@
+{
+  "nav":{
+    "contact": "Contáctame",
+    "resume": {
+      "anchor": "CV",
+      "url":"/docs/cv-es.pdf"
+    }
+  },
+  "resume": {
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "portfolio": "Proyectos",
+    "misc": "Misceláneo"
+  }
+}

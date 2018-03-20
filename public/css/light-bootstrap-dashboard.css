@@ -5716,7 +5716,7 @@ fieldset[disabled] .form-control {
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 50%;
-    border: 4px solid rgba(255, 255, 255, 0.3);
+    /*border: 4px solid rgba(255, 255, 255, 0.3);*/
     overflow: hidden;
     margin: 0 auto;
     -webkit-transition: all 300ms linear;
@@ -5815,7 +5815,7 @@ fieldset[disabled] .form-control {
 .card-user .avatar {
     width: 124px;
     height: 124px;
-    border: 5px solid #EEEEEE;
+    /*border: 5px solid #E0E0E0;*/
     position: relative;
     margin-bottom: 15px;
 }

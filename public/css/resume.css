@@ -1,0 +1,24 @@
+
+.text-nolink{
+  color:#606060;
+}
+
+.text-nolink:hover{
+  color:#404040;
+  text-decoration: underline;
+}
+
+.text-position{
+  font-size: .94em;
+}
+.text-details{
+  font-size: .90em;
+}
+
+.text-dark{
+  color:#606060;
+}
+
+.text-gray{
+  color:#9A9A9A;
+}

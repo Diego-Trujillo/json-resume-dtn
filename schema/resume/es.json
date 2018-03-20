@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Diego Trujillo",
-    "label": "ngeniero en Sistemas Computacionales ES",
-    "picture": "/images/Profile.png",
+    "label": "Ing. en Sistemas Computacionales",
+    "picture": "/img/Profile.png",
     "email": "diego.tn94@gmail.com",
     "phone": "+52 (722) 585-7373",
     "website": "http://dtn.me",
-    "summary": "Ingeniero en Sistemas Computacionales",
+    "summary": "Apasionado de las tecnologías de frontera, el desarrollo de aplicaciones web y el diseño de experiencias.",
     "location": {
       "address": "Lago Alberto #300 depto. 3207",
       "postalCode": "MX 11320",
@@ -15,54 +15,60 @@
       "region": "Ciudad de México"
     },
     "profiles": [
-    {
-      "network": "Twitter",
-      "username": "diego_tn94",
-      "url": "https://twitter.com/diego_tn94
-    },
-    {
-      "network": "LinkedIn",
-      "username": "diego-trujillo-norberto",
-      "url": "https://www.linkedin.com/in/diego-trujillo-norberto/"
-    },
-    {
-        "network": "GitHub",
+      {
+        "network": "Github",
         "username": "Diego-Trujillo",
         "url": "https://github.com/Diego-Trujillo"
-    }
+      },
+      {
+        "network": "LinkedIn",
+        "username": "diego-trujillo-norberto",
+        "url": "https://www.linkedin.com/in/diego-trujillo-norberto/"
+      },
+      {
+        "network": "Twitter",
+        "username": "diego_tn94",
+        "url": "https://twitter.com/diego_tn94"
+      }
     ]
   },
   "work": [{
     "company": "Grupo Empresarial EISEI",
-    "position": "Analista de Inteligencia Artificial",
+    "position": "Analista de Inteligencia Artificial para GF Banorte",
     "website": "http://eisei.net.mx/",
-    "startDate": "2017-02-01",
+    "startDate": "Feb. 2018",
     "endDate": "Actualidad",
-    "summary": "Description...",
+    "summary": "Participo en proyectos de Innovación que incorporan las tecnologías de IBM Watson y Blockchain junto a SME internacionales de IBM, tomando el rol de especialista de IBM Watson a nivel técnico y de negocio.",
     "highlights": [
-      
+      "Mantengo y defino nuevos flujos conversacionales de caracter informativo y transaccional para un bot de I.A.",
+      "Desarrollo herramientas y plataformas auxiliares para el proyecto.",
+      "Migro y mantengo la arquitectura del lado de Bluemix e IBM Watson para un bot de I.A.",
+      "Participo en la definición de roles y responsabilidades para una posible nueva área para competencias de I.A."
     ]
   },
   {
     "company": "Grupo Financiero Banorte",
     "position": "Becario",
     "website": "https://www.banorte.com/",
-    "startDate": "2017-06-01",
-    "endDate": "2018-02-01",
-    "summary": "Description...",
+    "startDate": "Jun. 2017",
+    "endDate": "Feb. 2018",
+    "summary": "Participé en proyectos de Innovación que incorporan las tecnologías de IBM Watson y Blockchain junto a SME internacionales de IBM.",
     "highlights": [
-      
+      "Participé en la documentación de la arquitectura de solución para un proyecto de I.A.",
+      "Participé en tareas relacionadas con la curaduría de la información con la que se entrena un bot de I.A.",
+      "Auxilié en el seguimiento de un proyecto de Blockchain con el ITESM-CCM."
     ]
   },
   {
     "company": "Access Systems",
     "position": "Fullstack Developer",
     "website": "https://www.accystime.com/",
-    "startDate": "2015-11-01",
-    "endDate": "2016-06-01",
+    "startDate": "Oct. 2015",
+    "endDate": "May. 2016",
     "summary": "Desarrollé una aplicación Mobile-First utilizando servicios de Geolocalización utilizando JQuery y Javascript. Adicionalmente desarrollé una plataforma administrativa básica para el servicio utilizando Scriptcase y PHP.",
     "highlights": [
-      
+      "Diseñé la interfaz de usuario, así como la interacción entre los diferentes componentes de la arquitectura de solución.",
+      "Gestioné y desarrollé el proyecto de inicio a fin."
     ]
   }],
   "volunteer": [{
@@ -87,8 +93,8 @@
     "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
     "area": "Ing. en Sistemas Computacionales",
     "studyType": "Universidad",
-    "startDate": "2013-08-01",
-    "endDate": "2018-12-01",
+    "startDate": "Ago. 2013",
+    "endDate": "Dic. 2018",
     "gpa": "93/100",
     "courses": [
       "Machine Learning",
@@ -101,8 +107,8 @@
     "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Toluca",
     "area": "Bachillerato Internacional",
     "studyType": "Preparatoria",
-    "startDate": "2010-08-01",
-    "endDate": "2013-05-01",
+    "startDate": "Ago. 2010",
+    "endDate": "May. 2013",
     "gpa": "92/100",
     "courses": [
       "Matemáticas Avanzadas BI",
@@ -114,7 +120,7 @@
     "title": "Mención Honorífica",
     "date": "2018-12-01",
     "awarder": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
-    "summary": "Segundo mejor premio de la generación"
+    "summary": "Fui el segundo mejor premio de la generación."
   },
   {
     "title": "Ganador del Reto Banorte-IBM-ITESM",
@@ -123,31 +129,91 @@
     "summary": "Formé parte del equipo ganador del reto que desarrolló una aplicación de KYC utilizando IBM Hyperledger Blockchain."
   }],
   "publications": [],
-  "skills": [{
+  "skills": [
+    {
     "name": "Desarrollo Backend",
     "level": "Master",
     "keywords": [
       "Node.js",
       "Express.js",
+      "Sails.js",
       "MongoDB",
-      "SQL",
-    ]
-  }],
+      "SQL"
+      ]
+    },
+    {
+    "name": "Desarrollo Frontend",
+    "level": "Aprendiendo",
+    "keywords": [
+      "CSS",
+      "Javascript",
+      "JQuery"
+      ]
+    },
+    {
+    "name": "Tecnologías emergentes",
+    "level": "Aprendiendo",
+    "keywords": [
+      "Blockchain (IBM Hyperledger)",
+      "Chatbots (Watson Conversation)
+      ]
+    },
+    {
+    "name": "Diseño y prototipado",
+    "level": "Aprendiendo",
+    "keywords": [
+      "Wireframing",
+      "Marvel"
+      "Photoshop",
+      "Illustrator"
+      ]
+    },
+    {
+    "name": "Ing. de Software",
+    "level": "Master",
+    "keywords": [
+      "SCRUM",
+      "Agile",
+      "UML",
+      "CrisolV"
+      ]
+    },
+    {
+    "name": "Programación",
+    "level": "Master",
+    "keywords": [
+      "Javascript",
+      "Java",
+      "Ruby",
+      "Python",
+      "C/C++"
+      ]
+    }
+  ],
   "languages": [{
     "name": "Español",
     "level": "Lengua nativa"
   },
   {
     "name": "English",
-    "level": "Bilingue"
+    "level": "Competencia profesional completa"
   }],
-  "interests": [{
-    "name": "Music",
-    "keywords": [
-      "Composición",
-      "Alternativo",
-      "Batería"
-    ]
-  }],
+  "interests": [
+    {
+      "name": "Música",
+      "keywords": [
+        "Composición",
+        "Alternativo",
+        "Batería"
+      ]
+    },
+    {
+      "name": "Automóviles",
+      "keywords": [
+        "Hot hatch"
+      ]
+    }
+    
+  ],
   "references": []
 }

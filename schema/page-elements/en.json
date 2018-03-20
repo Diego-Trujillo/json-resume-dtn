@@ -1,0 +1,15 @@
+{
+  "nav":{
+    "contact": "Contact me",
+    "resume": {
+      "anchor": "Resume",
+      "url":"/docs/cv-en.pdf"
+    }
+  },
+  "resume": {
+    "experience": "Experience",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "misc": "Misc"
+  }
+}

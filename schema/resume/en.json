@@ -2,10 +2,10 @@
   "basics": {
     "name": "Diego Trujillo",
     "label": "EN",
-    "picture": "EN",
+    "picture": "/img/Profile.png",
     "email": "diego.tn94@gmail.com",
     "phone": "+52 (722) 585-7373",
-    "website": "http://dtn.me,
+    "website": "http://dtn.me",
     "summary": "A summary of John Doe...",
     "location": {
       "address": "Lago Alberto #300 depto. 3207",
@@ -18,7 +18,7 @@
     {
       "network": "Twitter",
       "username": "diego_tn94",
-      "url": "https://twitter.com/diego_tn94
+      "url": "https://twitter.com/diego_tn94"
     },
     {
       "network": "LinkedIn",
