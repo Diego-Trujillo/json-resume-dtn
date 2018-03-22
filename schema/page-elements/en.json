@@ -7,9 +7,35 @@
     }
   },
   "resume": {
-    "experience": "Experience",
-    "skills": "Skills",
-    "portfolio": "Portfolio",
-    "misc": "Misc"
+    "experience": {
+      "title": "Experience",
+      "elements": {
+        "job": "Work",
+        "school": "Academics",
+        "courses": "Courses"
+      }
+    },
+    "skills": {
+      "title": "Skills",
+      "elements": {
+        "awards": "Awards & certifications",
+        "languages": "Languages",
+        "skills": "Skills"
+      }
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "elements": {
+        "projects": "Projects",
+        "technologies":"Technologies"
+      }
+    },
+    "misc": {
+      "title": "Misc.",
+      "elements": {
+        "volunteer": "Volunteer & additional experiences",
+        "interests": "Interests"
+      }
+    }
   }
 }

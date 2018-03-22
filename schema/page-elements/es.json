@@ -7,9 +7,35 @@
     }
   },
   "resume": {
-    "experience": "Experiencia",
-    "skills": "Habilidades",
-    "portfolio": "Proyectos",
-    "misc": "Misceláneo"
+    "experience": {
+      "title": "Experiencia",
+      "elements": {
+        "job": "Experiencia laboral",
+        "school": "Experiencia académica",
+        "courses": "Cursos"
+      }
+    },
+    "skills": {
+      "title": "Habilidades",
+      "elements": {
+        "awards": "Premios & certificaciones",
+        "languages":"Idiomas",
+        "skills": "Habilidades"
+      }
+    },
+    "portfolio": {
+      "title": "Proyectos",
+      "elements": {
+        "projects": "Proyectos",
+        "technologies":"Tecnologías utilizadas"
+      }
+    },
+    "misc": {
+      "title": "Misc.",
+      "elements": {
+        "volunteer": "Voluntariado & experiencias adicionales",
+        "interests": "Intereses"
+      }
+    }
   }
 }

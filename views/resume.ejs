@@ -94,7 +94,7 @@
                                 <hr>
                                 <div class="button-container text-center">
                                     <% schema.resume.basics.profiles.forEach(function(profile){ %>
-                                      <a href="<%= profile.url %>" class="btn btn-simple btn-link btn-icon" alt="@<%= profile.network %>: <%= profile.username %>">
+                                      <a href="<%= profile.url %>" class="btn btn-simple btn-link btn-icon" target="_blank" alt="@<%= profile.network %>: <%= profile.username %>">
                                         <i class="fa fa-<%= profile.network.toLowerCase() %>"></i>
                                       </a>
                                     <% }); %>
@@ -112,36 +112,37 @@
                                   <li role="presentation" class="nav-item show active">
                                       <a class="nav-link" id="experience-tab" href="#experience-section" data-toggle="tab">
                                         <i class="fa fa-rocket"></i> 
-                                        <%= schema.pageElements.resume.experience %>
+                                        <%= schema.pageElements.resume.experience.title %>
                                       </a>
                                   </li>
                                   <li class="nav-item">
                                       <a class="nav-link" id="skills-tab" href="#skills-section" data-toggle="tab">
                                         <i class="fa fa-code"></i> 
-                                        <%= schema.pageElements.resume.skills %>
+                                        <%= schema.pageElements.resume.skills.title %>
                                       </a>
                                   </li>
                                   <li class="nav-item">
                                       <a class="nav-link" id="portfolio-tab" href="#portfolio-section" data-toggle="tab">
                                         <i class="fa fa-briefcase"></i> 
-                                        <%= schema.pageElements.resume.portfolio %>
+                                        <%= schema.pageElements.resume.portfolio.title %>
                                       </a>
                                   </li>
                                   <li class="nav-item">
                                       <a class="nav-link" id="misc-tab" href="#misc-section" data-toggle="tab">
                                         <i class="fa fa-user"></i> 
-                                        <%= schema.pageElements.resume.misc %>
+                                        <%= schema.pageElements.resume.misc.title %>
                                       </a>
                                   </li>
                               </ul>
                               <div class="tab-content">
+                                <!--  ----------------- EXPERIENCE ----------------- -->
                                   <div id="experience-section" class="tab-pane fade show active pl-4" role="tabpanel" aria-labelledby="experience-tab">
                                     <!-- ------ JOB EXPERIENCE ------ -->
-                                      <h3 class="mt-1 mb-3"><small>EXPERIENCIA LABORAL</small></h3>
+                                      <h3 class="mt-1 mb-3"><small><%= schema.pageElements.resume.experience.elements.job.toUpperCase() %></small></h3>
                                       <div class="ml-2">
                                         <% schema.resume.work.forEach(function(job){ %> 
                                           <hr />
-                                          <a href="<%= job.website %>">
+                                          <a href="<%= job.website %>" target="_blank">
                                             <h5 class="text-nolink my-1"><%= job.company %></h5>
                                           </a>
                                           <p class="text-position my-1">
@@ -166,17 +167,17 @@
                                       <hr size="50" >
                                       <!-- ------ JOB EXPERIENCE ------ -->
                                       <!-- ------ SCHOOL EXPERIENCE ------ -->
-                                      <h3 class="mt-2 mb-3"><small>EXPERIENCIA ESCOLAR</small></h3>
+                                      <h3 class="mt-2 mb-3"><small><%= schema.pageElements.resume.experience.elements.school.toUpperCase() %></small></h3>
                                       <div class="ml-2">
                                         <% schema.resume.education.forEach(function(edu){ %> 
                                           <hr />
-                                          <h5 class="text-dark my-1"><%= edu.institution %></h5>
+                                          <h5 class="text-title-dark my-1"><%= edu.institution %></h5>
                                           
                                           <p class="text-position my-1">
                                             <%= edu.area %> - <span class="text-gray">(<%= edu.startDate %> - <%= edu.endDate %>)</span>
                                           </p>
                                           
-                                          <h6>CURSOS</h6>
+                                          <h6 class="ml-2"><%= schema.pageElements.resume.experience.elements.courses %></h6>
                                           <ul>
                                             <% edu.courses.forEach(function(course){ %> 
                                               <li class="text-details">
@@ -191,15 +192,142 @@
                                       </div>
                                       <!-- ------ SCHOOL EXPERIENCE ------ -->
                                   </div>
-                                  <div id="skills-section" class="tab-pane fade" role="tabpanel" aria-labelledby="skills-tab">
-                                      Aquí habilidades
+                                  <!--  ----------------- EXPERIENCE ----------------- -->
+                                  <!--  ----------------- SKILLS --------------------- -->
+                                  <div id="skills-section" class="tab-pane fade pl-4" role="tabpanel" aria-labelledby="skills-tab">
+                                      <!-- ------ SKILLS ------ -->
+                                      <h3 class="mt-2 mb-3"><small><%= schema.pageElements.resume.skills.elements.skills.toUpperCase() %></small></h3>
+                                      <div class="">
+                                        <% schema.resume.skills.forEach(function(skill){ %> 
+                                          <hr />
+                                          <h5 class="text-title-dark my-1"><%= skill.name %></h5>
+                                          
+                                          
+                                          <p class="text-details text-gray">
+                                            <% skill.keywords.forEach(function(keyword, index, keywords){ %>
+                                              <% if(index != 0) { %>, <% } %>
+                                              <%= keyword %> 
+                                            <% }); %>
+                                          </p>
+                                        <% }); %>
+                                        <hr />
+                                      </div>
+                                      <!-- ------ SKILLS ------ -->
+                                      <!-- ------ AWARDS ------ -->
+                                      <h3 class="mt-2 mb-3"><small><%= schema.pageElements.resume.skills.elements.awards.toUpperCase() %></small></h3>
+                                      <div class="ml-2">
+                                        <% schema.resume.awards.forEach(function(award){ %> 
+                                          <hr />
+                                          <h5 class="text-title-dark my-1"><%= award.title %></h5>
+                                          
+                                          <p class="text-position my-1">
+                                            <%= award.awarder %> - <span class="text-gray">(<%= award.date %>)</span>
+                                          </p>
+                                          <p class="text-details ">
+                                            <%= award.summary %>
+                                          </p>
+                                        <% }); %>
+                                        <hr />
+                                      </div>
+                                      <!-- ------ AWARDS ------ -->
+                                      <!-- ------ LANGUAGES --- -->
+                                      <h3 class="mt-2 mb-3"><small><%= schema.pageElements.resume.skills.elements.languages.toUpperCase() %></small></h3>
+                                      <div class="ml-2">
+                                        <% schema.resume.languages.forEach(function(language){ %> 
+                                          <hr />
+                                          <h5 class="text-title-dark my-1"><%= language.name %></h5>
+                                      
+                                          <p class="text-details text-gray">
+                                            <%= language.level %>
+                                          </p>
+                                        <% }); %>
+                                        <hr />
+                                      </div>
+                                      <!-- ------ LANGUAGES --- -->
                                   </div>
-                                  <div id="portfolio-section" class="tab-pane fade" role="tabpanel" aria-labelledby="portfolio-tab">
-                                      Aquí portafolio
+                                  <!--  ----------------- SKILLS --------------------- -->
+                                  <!--  ----------------- PORTFOLIO ------------------ -->
+                                  <div id="portfolio-section" class="tab-pane fade pl-4" role="tabpanel" aria-labelledby="portfolio-tab">
+                                      <h3 class="mt-2 mb-3"><small><%= schema.pageElements.resume.portfolio.elements.projects.toUpperCase() %></small></h3>
+                                      <div class="ml-2">
+                                        <% schema.portfolio.projects.forEach(function(project){ %> 
+                                          <hr />
+                                          
+                                          <h5 class="text-dark my-1">
+                                              <%= project.name %> &nbsp;
+                                              
+                                              <% project.links.forEach(function(link){ %>
+                                                  <a href="<%= link.url %>" target="_blank" class="">
+                                                    <i class="<%= link.icon %>"></i>
+                                                  </a>
+                                              <% }); %>
+                                             
+                                          </h5>
+                                          
+                                          <p class="text-position my-1">
+                                            <%= project.role %> - <span class="text-gray">(<%= project.date %>)</span>
+                                          </p>
+                                          
+                                          <p class="text-details">
+                                            <%= project.summary %>
+                                          </p>
+                                          <p class="text-details">
+                                            <%= schema.pageElements.resume.portfolio.elements.technologies %>: 
+                                            <span class="text-gray">
+                                              <% project.technologies.forEach(function(technology, index, technologies){ %>
+                                                <% if(index != 0) { %>, <% } %>
+                                                <%= technology %> 
+                                              <% }); %>
+                                            </span>
+                                          </p>
+                                          
+                                        <% }); %>
+                                        <hr />
+                                      </div>
                                   </div>
-                                  <div id="misc-section" class="tab-pane fade" role="tabpanel" aria-labelledby="misc-tab">
-                                  coasas en geral                                      
+                                  <!--  ----------------- PORTFOLIO ------------------ -->
+                                  <!--  ----------------- MISC ----------------------- -->
+                                  <div id="misc-section" class="tab-pane fade pl-4" role="tabpanel" aria-labelledby="misc-tab">
+                                    <!-- ------ VOLUNTEER ---- -->
+                                    <h3 class="mt-2 mb-3"><small><%= schema.pageElements.resume.misc.elements.volunteer.toUpperCase() %></small></h3>
+                                    <div class="ml-2">
+                                      <% schema.resume.volunteer.forEach(function(ve){ %> 
+                                        <hr />
+                                        <a href="<%= ve.website %>" target="_blank">
+                                          <h5 class="text-nolink my-1"><%= ve.organization %></h5>
+                                        </a>
+                                        <p class="text-position my-1">
+                                          <%= ve.position %> - <span class="text-gray">(<%= ve.startDate %> - <%= ve.endDate %>)</span>
+                                        </p>
+                                        
+                                        
+                                        <p class="text-details">
+                                          <%= ve.summary %>
+                                        </p>
+                                      <% }); %>
+                                      <hr />
+                                    </div>
+                                    <!-- ------ VOLUNTEER ---- -->
+                                    <!-- ------ INTERESES ---- -->
+                                      <h3 class="mt-2 mb-3"><small><%= schema.pageElements.resume.misc.elements.interests.toUpperCase() %></small></h3>
+                                      <div class="">
+                                        <% schema.resume.interests.forEach(function(interest){ %> 
+                                          <hr />
+                                          <h5 class="text-title-dark my-1"><%= interest.name %></h5>
+                                          
+                                          
+                                          <p class="text-details text-gray">
+                                            <% interest.keywords.forEach(function(keyword, index, keywords){ %>
+                                              <% if(index != 0) { %>, <% } %>
+                                              <%= keyword %> 
+                                            <% }); %>
+                                          </p>
+                                        <% }); %>
+                                        <hr />
+                                      </div>
+                                      <!-- ------ INTERESES ---- -->
                                   </div>
+                                  <!--  ----------------- MISC ----------------------- -->
                               </div>
                           </div>
                       </div>

@@ -1,1 +1,51 @@
-{}
+{
+  "projects": [
+      {
+        "name":"Craphoot!",
+        "summary":"Single Page App for Software Design and Architecture class @ITESM showcasing an implementation of the MVC pattern using a custom made JQuery controller and ECMA 6 Classes.",
+        "role": "Fullstack",
+        "date": "Nov. 2017",
+        "links": [
+            {
+              "website":"Github",
+              "url":"https://github.com/Diego-Trujillo/craphoot",
+              "icon": "fa fa-github"
+            }
+          ],
+        "technologies": ["Ruby", "Sinatra", "JQuery"]
+      },
+      {
+        "name":"SALIQ-FLIQ",
+        "summary":"Landing page para evento de la Sociedad de Estudiantes de Ing. Química @ITESM CEM.",
+        "role": "Design & Frontend",
+        "date": "Feb. 2017",
+        "links": [
+            {
+              "website":"Live site",
+              "url":"http://www.cem.itesm.mx/asociaciones/saliq/info.html",
+              "icon": "fa fa-globe"
+            }
+          ],
+        "technologies": ["Bootstrap", "CSS", "Photoshop"]
+      },
+      {
+        "name":"PlanetZ",
+        "summary":"Planet Z is an Android 2D adventure game developed using AndEngine.",
+        "role": "Architect & developer",
+        "date": "Dic. 2015",
+        "links": [
+            {
+              "website":"Google Play",
+              "url":"https://play.google.com/store/apps/details?id=mx.itesm.planetz&hl=es",
+              "icon": "fab fa-google-play"
+            },
+            {
+              "website":"Github",
+              "url":"https://github.com/Diego-Trujillo/PlanetZ",
+              "icon": "fa fa-github"
+            }
+          ],
+        "technologies": ["Android SDK", "AndEngine", "Photoshop"]
+      }
+    ]
+}

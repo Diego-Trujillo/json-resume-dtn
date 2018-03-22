@@ -29,8 +29,23 @@ router.get('/resume/:lang', function(req, res, next){
     res.send('we dont have it goy.');
   }
   else{
-    console.log(schema[lang])
-    res.render('resume.ejs', { schema: schema[lang], languages: { current: lang, available: languagesAvailable } });
+    schema = {};
+    fs.readFile((__dirname + '/../schema/page-elements/' + lang + '.json'), 'utf8', function(err, data){
+      if (err) return res.json(err);
+      schema.pageElements = JSON.parse(data);
+      
+      fs.readFile((__dirname + '/../schema/portfolio/' + lang + '.json'), 'utf8', function(err, data){
+        if (err) return res.json(err);
+        schema.portfolio = JSON.parse(data);
+        
+        fs.readFile((__dirname + '/../schema/resume/' + lang + '.json'), 'utf8', function(err, data){
+          if(err) return res.json(err);
+          schema.resume = JSON.parse(data);
+          console.log(schema)
+          res.render('resume.ejs', { schema, languages: { current: lang, available: languagesAvailable } });
+        });
+      });
+    });
   }
 });
 
