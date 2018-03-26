@@ -1,3 +1,9 @@
+.icon-link{
+  color: #606060;
+}
+.icon-link:hover{
+  color: #888888;
+}
 
 .text-nolink{
   color:#606060;
@@ -21,4 +27,25 @@
 
 .text-gray{
   color:#9A9A9A;
+}
+
+.btn-white.btn-simple {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.btn-white.btn-simple:hover,
+.btn-white.btn-simple:focus,
+.btn-white.btn-simple:active,
+.btn-white.btn-simple.active,
+.open>.btn-white.btn-simple.dropdown-toggle {
+    background-color: rgba(1,1,1,0.1);
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
+}
+
+.btn-white.btn-simple .caret {
+    border-top-color: #FFFFFF;
 }

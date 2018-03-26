@@ -7532,7 +7532,7 @@ fieldset[disabled] .form-control {
         content: "";
         z-index: 9999;
         overflow-x: hidden;
-        background-color: rgba(0, 0, 0, 0.35);
+        background-color: rgba(0, 0, 0, 0);
         -webkit-transition: all 370ms ease-in;
         -moz-transition: all 370ms ease-in;
         -o-transition: all 370ms ease-in;

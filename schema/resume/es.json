@@ -38,11 +38,13 @@
     "website": "http://eisei.net.mx/",
     "startDate": "Feb. 2018",
     "endDate": "Actualidad",
-    "summary": "Participo en proyectos de Innovación que incorporan las tecnologías de IBM Watson y Blockchain junto a SME internacionales de IBM, tomando el rol de especialista de IBM Watson a nivel técnico y de negocio.",
+    "summary": "Participo en proyectos de innovación que incorporan las tecnologías de IBM Watson y Blockchain junto a SMEs internacionales de IBM, tomando el rol de especialista de IBM Watson a nivel técnico y de negocio.",
     "highlights": [
       "Mantengo y defino nuevos flujos conversacionales de caracter informativo y transaccional para un bot de I.A.",
-      "Desarrollo herramientas y plataformas auxiliares para el proyecto.",
-      "Migro y mantengo la arquitectura del lado de Bluemix e IBM Watson para un bot de I.A.",
+      "Diseño e implemento estructuras JSON dentro de Watson Assistant que auxilian en la generación de contenido rico consumido por distintos componentes de la arquitectura de solución.",
+      "Desarrollo herramientas y plataformas auxiliares para automatizar tareas diarias del equipo de Curaduría de la Información.",
+      "Mantengo y realizo migraciones de ambiente para la instancia de Watson Assistant en el proyecto.",
+      "Ejecuto y auxilio en la interpretación de un experimento de K-Fold para definir objetivos de corto plazo para el entrenamiento de un bot de I.A.",
       "Participo en la definición de roles y responsabilidades para una posible nueva área para competencias de I.A."
     ]
   },
@@ -52,20 +54,21 @@
     "website": "https://www.banorte.com/",
     "startDate": "Jun. 2017",
     "endDate": "Feb. 2018",
-    "summary": "Participé en proyectos de Innovación que incorporan las tecnologías de IBM Watson y Blockchain junto a SME internacionales de IBM.",
+    "summary": "Participé en proyectos de Innovación que incorporan las tecnologías de IBM Watson y Blockchain junto a SMEs internacionales de IBM.",
     "highlights": [
       "Participé en la documentación de la arquitectura de solución para un proyecto de I.A.",
-      "Participé en tareas relacionadas con la curaduría de la información con la que se entrena un bot de I.A.",
-      "Auxilié en el seguimiento de un proyecto de Blockchain con el ITESM-CCM."
+      "Participé en tareas relacionadas con la curaduría de la información para el entrenamiento un bot de I.A.",
+      "Recibí entrenamiento formal de SMEs de IBM Watson en las mejores prácticas para Watson Assistant, así como en la creación e interpretación de métodos estadísticos y de validación para su refinamiento.",
+      "Auxilié en el seguimiento de un proyecto de Blockchain con alumnos del ITESM-CCM."
     ]
   },
   {
     "company": "Access Systems",
-    "position": "Fullstack Developer",
+    "position": "Desarrollador Fullstack",
     "website": "https://www.accystime.com/",
     "startDate": "Oct. 2015",
     "endDate": "May. 2016",
-    "summary": "Desarrollé una aplicación Mobile-First utilizando servicios de Geolocalización utilizando JQuery y Javascript. Adicionalmente desarrollé una plataforma administrativa básica para el servicio utilizando Scriptcase y PHP.",
+    "summary": "Desarrollé una aplicación Mobile-First utilizando servicios de Geolocalización con JQuery y una plataforma administrativa para el servicio utilizando Scriptcase y PHP.",
     "highlights": [
       "Diseñé la interfaz de usuario, así como la interacción entre los diferentes componentes de la arquitectura de solución.",
       "Gestioné y desarrollé el proyecto de inicio a fin."
@@ -78,7 +81,7 @@
     "website": "https://www.facebook.com/aesc.cem/",
     "startDate": "Ago. 2017",
     "endDate": "Dic. 2017",
-    "summary": "Desc",
+    "summary": "Diseñé e implmenté la identidad visual de los eventos realizados por la asociación estudiantil.",
     "highlights": [ ]
   },{
     "organization": "Asociación de Estudiantes de Sistemas Computacionales",
@@ -86,8 +89,13 @@
     "website": "https://www.facebook.com/aesc.cem/",
     "startDate": "Ago. 2016",
     "endDate": "Ago. 2017",
-    "summary": "Desc",
-    "highlights": [ ]
+    "summary": "Presidí la asociación estudiantil de la carrera de Ing. en Sistemas Computacionales del ITESM-CEM, coordinando e implementando múltiples eventos de interés académico y de integración.",
+    "highlights": [
+      "Propuse e implementé la nueva identidad visual de la Asociación.", 
+      "Coordiné junto con otras asociaciones estudiantiles un Congreso Estudiantil de Futuro Tecnológico (E-Robot).",
+      "Coordiné un concurso semestral de programación competitiva. (Code Challenge).",
+      "Coordiné la creación de un espacio de diálogo abierto entre profesores y alumnos para la exploración de nuevas materias optativas (Topicotón)."
+    ]
   },{
     "organization": "Un Techo para mi País",
     "position": "Voluntario",
@@ -115,13 +123,14 @@
     "courses": [
       "Machine Learning",
       "Introducción a la Computación Cuántica",
-      "Mainframe y Z/OS",
+      "Introducción a Mainframe y Z/OS",
+      "Técnicas foresnses aplicadas a delitos informáticos",
       "Laboratorio Web con Blockchain"
     ]
   },
   {
     "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Toluca",
-    "area": "Bachillerato Internacional",
+    "area": "Bachillerato Internacional (IBO)",
     "studyType": "Preparatoria",
     "startDate": "Ago. 2010",
     "endDate": "May. 2013",
@@ -132,34 +141,57 @@
       "Lengua Inglesa Avanzada BI"
     ]
   }],
-  "awards": [{
+  "awards": [
+  {
+    "title": "Data Science Foundations Badge",
+    "date": "Certificación en curso",
+    "awarder": "IBM",
+    "summary": ""
+  },
+  {
+    "title": "Build Your Own Chatbot Badge",
+    "date": "Certificación en curso",
+    "awarder": "IBM",
+    "summary": ""
+  },
+  {
     "title": "Mención Honorífica",
     "date": "Dic. 2018",
     "awarder": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
-    "summary": "Fui el segundo mejor premio de la generación."
+    "summary": "Obtuve el mejor segundo promedio de mi generación, siendo también uno de los acreedores al Premio CENEVAL al Desempeño de Excelencia-EGEL."
   },
   {
     "title": "Ganador del Reto Banorte-IBM-ITESM",
     "date": "May. 2017",
     "awarder": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
-    "summary": "Formé parte del equipo ganador del reto que desarrolló una aplicación de KYC utilizando IBM Hyperledger Blockchain."
+    "summary": "Formé parte del equipo ganador del reto que desarrolló una aplicación de KYC utilizando IBM Hyperledger Blockchain. Desarrollé todo la interfaz de usuario del proyecto, y participé en el diseño conceptual y orientado a servicios de las reglas de negocio de la red permisionada de Blockchain para la solución."
   }],
   "publications": [],
   "skills": [
     {
+    "name": "Tecnologías emergentes",
+    "level": "Experto",
+    "keywords": [
+      "Watson Assistant",
+      "Watson Discovery",
+      "Blockchain (IBM Hyperledger)"
+      ]
+    },
+    {
     "name": "Desarrollo Backend",
-    "level": "Master",
+    "level": "Experto",
     "keywords": [
       "Node.js",
       "Express.js",
       "Sails.js",
       "MongoDB",
-      "SQL"
+      "Sequelize ORM",
+      "Sinatra"
       ]
     },
     {
     "name": "Desarrollo Frontend",
-    "level": "Aprendiendo",
+    "level": "Intemedio",
     "keywords": [
       "CSS",
       "Javascript",
@@ -167,16 +199,59 @@
       ]
     },
     {
-    "name": "Tecnologías emergentes",
-    "level": "Aprendiendo",
+    "name": "Lenguajes de programación",
+    "level": "Master",
     "keywords": [
-      "Blockchain (IBM Hyperledger)",
-      "Chatbots (Watson Conversation)"
+      "Javascript",
+      "Java",
+      "Ruby",
+      "Python",
+      "C/C++",
+      "C#"
+      ]
+    },
+    {
+      "name": "Control de versiones",
+      "level": "Intermediate",
+      "keywords":[
+          "Git",
+          "Guthub"
+        ]
+    },
+    {
+    "name": "Cloud",
+    "level": "Intermedio",
+    "keywords": [
+      "Bluemix",
+      "Cloud Foundry",
+      "Bluemix Delivery Pipelines",
+      "Amazon Web Services"
+      ]
+    },
+    {
+    "name": "Estructuras de información",
+    "level": "Experto",
+    "keywords": [
+      "JSON",
+      "XML",
+      "SQL",
+      "NO-SQL"
+      ]
+    },
+    {
+    "name": "Herramientas de análisis",
+      "level": "Intermedio",
+    "keywords": [
+      "R",
+      "Weka",
+      "Wolfram Mathematica",
+      "K-fold",
+      "Métodos numéricos"
       ]
     },
     {
     "name": "Diseño y prototipado",
-    "level": "Aprendiendo",
+    "level": "Experto",
     "keywords": [
       "Wireframing",
       "Marvel",
@@ -185,24 +260,13 @@
       ]
     },
     {
-    "name": "Ing. de Software",
-    "level": "Master",
+    "name": "Gestión y documentación de Software",
+    "level": "Experto",
     "keywords": [
       "SCRUM",
       "Agile",
       "UML",
-      "CrisolV"
-      ]
-    },
-    {
-    "name": "Programación",
-    "level": "Master",
-    "keywords": [
-      "Javascript",
-      "Java",
-      "Ruby",
-      "Python",
-      "C/C++"
+      "Kanban"
       ]
     }
   ],
@@ -216,17 +280,27 @@
   }],
   "interests": [
     {
-      "name": "Música",
+      "name": "Cómputo cognitivo",
       "keywords": [
-        "Composición",
-        "Alternativo",
-        "Batería"
+        "Me encanta conocer nuevas aplicaciones de Inteligencia Adaptativa y Machine Learning, y su impacto sobre diversas industrias."
       ]
     },
     {
-      "name": "Automóviles",
+      "name": "Arquitectura de Software",
       "keywords": [
-        "Hot hatch"
+        "Me gusta conocer cómo interactuan los distintos componentes de una arquitectura de un proyecto de Software."
+      ]
+    },
+    {
+      "name": "Desarrollo Web",
+      "keywords": [
+        "Me gusta gusta diseñar e implementar proyectos Web."
+      ]
+    },
+    {
+      "name": "Música",
+      "keywords": [
+        "Me apasiona tocar la batería, y aprender sobre producción audiovisual en general."
       ]
     }
     

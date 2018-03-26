@@ -1,1 +1,93 @@
-{}
+{
+  "projects": [
+      {
+        "name":"JSON Resume DTN",
+        "summary":"Simple web application for rendering a JSON Resume to a EJS template. Supports multiple languages. ",
+        "role": "Fullstack",
+        "date": "Mar. 2018",
+        "links": [
+            {
+              "website":"Live site",
+              "url":"http://Diego-Trujillo.github.io/",
+              "icon": "fa fa-globe"
+            },
+            {
+              "website":"Github",
+              "url":"https://github.com/Diego-Trujillo/json-resume-dtn",
+              "icon": "fa fa-github"
+            }
+          ],
+        "technologies": ["Node.js", "Express", "EJS Templates", "JSON", "Bootstrap"]
+      },
+      {
+        "name":"CANCHAM Events",
+        "summary":"Mobile application + Web Managing Console for an event-driven organization that includes event publication and access controlled content. ",
+        "role": "Backend & Web Frontend",
+        "date": "Nov. 2017",
+        "links": [
+          ],
+          "technologies": ["Node.js", "Express", "JQuery", "EJS Templates", "REST", "SQL", "Angular 2", "Ionic"]
+      },
+      {
+        "name":"Craphoot!",
+        "summary":"Web quiz application on Software Design Patterns. ",
+        "role": "Fullstack",
+        "date": "Nov. 2017",
+        "links": [
+            {
+              "website":"Github",
+              "url":"https://github.com/Diego-Trujillo/craphoot",
+              "icon": "fa fa-github"
+            }
+          ],
+        "technologies": ["Ruby", "Sinatra", "JQuery", "Sequel"]
+      },
+      {
+        "name":"SALIQ-FLIQ",
+        "summary":"Landing page for a student society event at ITESM-CEM.",
+        "role": "Design & Frontend",
+        "date": "Feb. 2017",
+        "links": [
+            {
+              "website":"Live site",
+              "url":"http://www.cem.itesm.mx/asociaciones/saliq/info.html",
+              "icon": "fa fa-globe"
+            }
+          ],
+        "technologies": ["Bootstrap", "CSS", "Photoshop"]
+      },
+      {
+        "name":"Batalla Naval",
+        "summary":"Multiclient and multiroom web implementation of the classic Battleship game using REST.",
+        "role": "Fullstack",
+        "date": "Nov. 2016",
+        "links": [
+            {
+              "website":"Github",
+              "url":"https://github.com/Diego-Trujillo/batalla-naval",
+              "icon": "fa fa-github"
+            }
+          ],
+        "technologies": ["Node.js", "Express", "MongoDB", "JQuery", "Bootstrap"]
+      },
+      {
+        "name":"PlanetZ",
+        "summary":"2D Android videogame developed using the AndEngine library.",
+        "role": "Developer",
+        "date": "Dec. 2015",
+        "links": [
+            {
+              "website":"Google Play",
+              "url":"https://play.google.com/store/apps/details?id=mx.itesm.planetz&hl=es",
+              "icon": "fa fa-globe"
+            },
+            {
+              "website":"Github",
+              "url":"https://github.com/Diego-Trujillo/PlanetZ",
+              "icon": "fa fa-github"
+            }
+          ],
+        "technologies": ["Android SDK", "AndEngine", "Photoshop"]
+      }
+    ]
+}

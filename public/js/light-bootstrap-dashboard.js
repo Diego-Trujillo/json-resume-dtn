@@ -164,7 +164,7 @@ lbd = {
                         $toggle.addClass('toggled');
                     }, 430);
 
-
+                    
                     main_panel_height = $('.main-panel')[0].scrollHeight;
                     $layer = $('<div class="close-layer"></div>');
                     $layer.css('height', main_panel_height + 'px');

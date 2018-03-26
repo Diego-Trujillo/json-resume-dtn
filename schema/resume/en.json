@@ -1,105 +1,310 @@
 {
   "basics": {
     "name": "Diego Trujillo",
-    "label": "EN",
+    "label": "B.S. Computer Engineering",
     "picture": "/img/Profile.png",
     "email": "diego.tn94@gmail.com",
     "phone": "+52 (722) 585-7373",
     "website": "http://dtn.me",
-    "summary": "A summary of John Doe...",
+    "summary": "Passionate about frontier technologies, web development and experience design.",
     "location": {
       "address": "Lago Alberto #300 depto. 3207",
       "postalCode": "MX 11320",
       "city": "Miguel Hidalgo",
       "countryCode": "MX",
-      "region": "Ciudad de México"
+      "region": "Mexico City"
     },
     "profiles": [
-    {
-      "network": "Twitter",
-      "username": "diego_tn94",
-      "url": "https://twitter.com/diego_tn94"
-    },
-    {
-      "network": "LinkedIn",
-      "username": "diego-trujillo-norberto",
-      "url": "https://www.linkedin.com/in/diego-trujillo-norberto/"
-    },
-    {
-        "network": "GitHub",
+      {
+        "network": "Github",
         "username": "Diego-Trujillo",
         "url": "https://github.com/Diego-Trujillo"
-    }
+      },
+      {
+        "network": "LinkedIn",
+        "username": "diego-trujillo-norberto",
+        "url": "https://www.linkedin.com/in/diego-trujillo-norberto/"
+      },
+      {
+        "network": "Twitter",
+        "username": "diego_tn94",
+        "url": "https://twitter.com/diego_tn94"
+      }
     ]
   },
   "work": [{
-    "company": "Company",
-    "position": "President",
-    "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
+    "company": "Grupo Empresarial EISEI",
+    "position": "A.I. Consultant for GF Banorte",
+    "website": "http://eisei.net.mx/",
+    "startDate": "Feb. 2018",
+    "endDate": "Current",
+    "summary": "Involved in projects using IBM Watson y Blockchain technologies alogside world-class IBM SMEs as a technical and business-oriented expert. Current responsibilities:",
     "highlights": [
-      "Started the company"
+      "Maintain and define new conversational flows of an informational and transactional nature for an A.I. agent.",
+      "Design and implement JSON structures in Watson Assistant that define rich content generation consumed by several components of current architecture.",
+      "Develop tools and auxiliary platforms to automate daily tasks within the Information Curatorship Team.",
+      "Maintain and migrate Watson Assistant instances across the proyect's overall architecture.",
+      "Execute and analyze the results of a K-Fold experiment to define short-term objectives for the calibration of an A.I bot.",
+      "Involved in the definition of roles and responsibilities for a posible new A.I. department."
+    ]
+  },
+  {
+    "company": "Grupo Financiero Banorte",
+    "position": "Intern",
+    "website": "https://www.banorte.com/",
+    "startDate": "Jun. 2017",
+    "endDate": "Feb. 2018",
+    "summary": "Involved in projects using IBM Watson y Blockchain technologies alogside world-class IBM SMEs.",
+    "highlights": [
+      "Involved in the documentation of the technical architecture for an A.I. project.",
+      "Involved in Information Curatorship for an A.I. agent.",
+      "Received formal training from IBM Watson SMEs on the best practices for Watson Assistant, as well as creation and interpretation of statistical methods for validation and refinement of an A.I. agent.",
+      "Followed up on a Blockchain project with ITESM-CCM alumni."
+    ]
+  },
+  {
+    "company": "Access Systems",
+    "position": "Fullstack Developer",
+    "website": "https://www.accystime.com/",
+    "startDate": "Oct. 2015",
+    "endDate": "May. 2016",
+    "summary": "Developed a Mobile-First application using geolocation services with JQuery and an managing platform using Scriptcase and PHP.",
+    "highlights": [
+      "Designed user interface, as well as component integration within the project's architecture.",
+      "Managed project from beginning to end."
     ]
   }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
+  "volunteer": [
+    {
+    "organization": "Asociación de Estudiantes de Sistemas Computacionales",
+    "position": "Image Coordinator",
+    "website": "https://www.facebook.com/aesc.cem/",
+    "startDate": "Aug. 2017",
+    "endDate": "Dec. 2017",
+    "summary": "Designed and implemented the visual identity for the events organized by the student society.",
+    "highlights": [ ]
+  },{
+    "organization": "Asociación de Estudiantes de Sistemas Computacionales",
+    "position": "President",
+    "website": "https://www.facebook.com/aesc.cem/",
+    "startDate": "Aug. 2016",
+    "endDate": "Aug. 2017",
+    "summary": "Presided over the student society for the B.S. Computer Engineering Major at ITESM-CEM, coordinating multiple academic events. ",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
+      "Implemented the new visual identity of the student society.", 
+      "Coordinated a series of academic conferences titled Congreso Estudiantil de Futuro Tecnológico (E-Robot) algonside other student societies.",
+      "Coordinated and started a biannual competitive progamming competition (Code Challenge).",
+      "Coordinated and started an open forum between students and teacher for the discussion and exploration of new optional assignatures (Topicotón)."
     ]
+  },{
+    "organization": "Un Techo para mi País",
+    "position": "Volunteer",
+    "website": "https://www.techo.org/",
+    "startDate": "Oct. 2011",
+    "endDate": "Mar. 2012",
+    "summary": "Helped raise funds for the yearly fundraiser and built a prefab house for populations near Toluca Valley.",
+    "highlights": [ ]
+  },{
+    "organization": "GuiaTEC Toluca",
+    "position": "Math Mentor",
+    "website": "https://www.facebook.com/guiatec.toluca",
+    "startDate": "Jan. 2012",
+    "endDate": "Dec. 2012",
+    "summary": "Taught saturday Math clases to Middle School students. Prepared teaching and reading materiales, as well as an evaluation system for their performance.",
+    "highlights": [ ]
   }],
   "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
+    "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
+    "area": "B.S. Computer Engineering",
+    "studyType": "College",
+    "startDate": "Aug. 2013",
+    "endDate": "Dec. 2018",
+    "gpa": "93/100",
     "courses": [
-      "DB1101 - Basic SQL"
+      "Machine Learning",
+      "Intro. to Quantum Computing",
+      "Intro. to Mainframe & Z/OS",
+      "Applied Forsensic Techniques for Computer Crimes",
+      "Web Development Lab with Blockchain"
+    ]
+  },
+  {
+    "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Toluca",
+    "area": "International Baccalaureate (IBO)",
+    "studyType": "High School",
+    "startDate": "Aug. 2010",
+    "endDate": "May. 2013",
+    "gpa": "92/100",
+    "courses": [
+      "IB Higher Level Mathematics",
+      "IB Higher Level Spanish Literature",
+      "IB Higher Level English Literature"
     ]
   }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
+  "awards": [
+  {
+    "title": "Data Science Foundations Badge",
+    "date": "Certification in progress",
+    "awarder": "IBM",
+    "summary": ""
+  },
+  {
+    "title": "Build Your Own Chatbot Badge",
+    "date": "Certification in progress",
+    "awarder": "IBM",
+    "summary": ""
+  },
+  {
+    "title": "Graduate with Honors",
+    "date": "Dec. 2018",
+    "awarder": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
+    "summary": "Obtained second best GPA of my class and the CENEVAL Award for Excellent Performance-EGEL."
+  },
+  {
+    "title": "Banorte-IBM-ITESM Challenge Winner",
+    "date": "May. 2017",
+    "awarder": "Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",
+    "summary": 
+    "Developed user interface and integration layer for a KYC Application that used IBM Hyperledger Blockchain."
   }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
-  "skills": [{
-    "name": "Web Development",
+  "publications": [],
+  "skills": [
+    {
+    "name": "Frontier technologies",
+    "level": "Expert",
+    "keywords": [
+      "Watson Assistant",
+      "Watson Discovery",
+      "Blockchain (IBM Hyperledger)"
+      ]
+    },
+    {
+    "name": "Backend Development",
+    "level": "Expert",
+    "keywords": [
+      "Node.js",
+      "Express.js",
+      "Sails.js",
+      "MongoDB",
+      "Sequelize ORM",
+      "Sinatra"
+      ]
+    },
+    {
+    "name": "Frontend Development",
+    "level": "Intemediate",
+    "keywords": [
+      "CSS",
+      "Javascript",
+      "JQuery"
+      ]
+    },
+    {
+    "name": "Programming Languages",
     "level": "Master",
     "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-  }],
-  "languages": [{
-    "name": "English",
-    "level": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
+      "Javascript",
+      "Java",
+      "Ruby",
+      "Python",
+      "C/C++",
+      "C#"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "level": "Intermediate",
+      "keywords":[
+          "Git",
+          "Guthub"
+        ]
+    },
+    {
+    "name": "Cloud",
+    "level": "Intermediate",
     "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
+      "Bluemix",
+      "Cloud Foundry",
+      "Bluemix Delivery Pipelines",
+      "Amazon Web Services"
+      ]
+    },
+    {
+    "name": "Information Structures",
+    "level": "Expert",
+    "keywords": [
+      "JSON",
+      "XML",
+      "SQL",
+      "NO-SQL"
+      ]
+    },
+    {
+    "name": "Analytic Tools",
+      "level": "Intemediate",
+    "keywords": [
+      "R",
+      "Weka",
+      "Wolfram Mathematica",
+      "K-fold",
+      "Numerical methods"
+      ]
+    },
+    {
+    "name": "Design & Prototyping",
+    "level": "Expert",
+    "keywords": [
+      "Wireframing",
+      "Marvel",
+      "Photoshop",
+      "Illustrator"
+      ]
+    },
+    {
+    "name": "Software Management & Documentation",
+    "level": "Expert",
+    "keywords": [
+      "SCRUM",
+      "Agile",
+      "UML",
+      "Kanban"
+      ]
+    }
+  ],
+  "languages": [{
+    "name": "Spanish",
+    "level": "Native Language"
+  },
+  {
+    "name": "Inglés",
+    "level": "Full Profesional Proficiency"
   }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
-  }]
+  "interests": [
+    {
+      "name": "Cognitive Computing",
+      "keywords": [
+        "Passionate to learn new applications of Adaptive Intelligence and Machine Learning, and their impact across industries"
+      ]
+    },
+    {
+      "name": "Software Architecture",
+      "keywords": [
+        "Deeply interested in how sofware components interact and form a cohesive project architecture."
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "Extremely passionate about fullstack development."
+      ]
+    },
+    {
+      "name": "Músic",
+      "keywords": [
+        "Love playing drums and music production."
+      ]
+    }
+    
+  ],
+  "references": []
 }

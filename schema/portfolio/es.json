@@ -1,8 +1,36 @@
 {
   "projects": [
       {
+        "name":"JSON Resume DTN",
+        "summary":"Aplicación web que renderiza un CV en JSON a una templeta EJS. Cuenta con soporte multilenguaje.",
+        "role": "Fullstack",
+        "date": "Mar. 2018",
+        "links": [
+            {
+              "website":"Live site",
+              "url":"http://Diego-Trujillo.github.io/",
+              "icon": "fa fa-globe"
+            },
+            {
+              "website":"Github",
+              "url":"https://github.com/Diego-Trujillo/json-resume-dtn",
+              "icon": "fa fa-github"
+            }
+          ],
+        "technologies": ["Node.js", "Express", "EJS Templates", "JSON", "Bootstrap"]
+      },
+      {
+        "name":"CANCHAM Events",
+        "summary":"Aplicación Móvil + Consola de Administración Web para la gestión y publicación de eventos con contenido controlado por acceso.",
+        "role": "Backend & Frontend Web",
+        "date": "Nov. 2017",
+        "links": [
+          ],
+          "technologies": ["Node.js", "Express", "JQuery", "EJS Templates", "REST", "SQL"]
+      },
+      {
         "name":"Craphoot!",
-        "summary":"Single Page App for Software Design and Architecture class @ITESM showcasing an implementation of the MVC pattern using a custom made JQuery controller and ECMA 6 Classes.",
+        "summary":"Aplicación web para exámenes breves sobre patrones de diseño de software. ",
         "role": "Fullstack",
         "date": "Nov. 2017",
         "links": [
@@ -12,12 +40,12 @@
               "icon": "fa fa-github"
             }
           ],
-        "technologies": ["Ruby", "Sinatra", "JQuery"]
+        "technologies": ["Ruby", "Sinatra", "JQuery", "Sequel"]
       },
       {
         "name":"SALIQ-FLIQ",
-        "summary":"Landing page para evento de la Sociedad de Estudiantes de Ing. Química @ITESM CEM.",
-        "role": "Design & Frontend",
+        "summary":"Landing page para evento de la Sociedad de Estudiantes de Ing. Química en ITESM-CEM.",
+        "role": "Diseño & Frontend",
         "date": "Feb. 2017",
         "links": [
             {
@@ -29,15 +57,29 @@
         "technologies": ["Bootstrap", "CSS", "Photoshop"]
       },
       {
+        "name":"Batalla Naval",
+        "summary":"Implementación web multicliente y multicuartos para el juego de Batalla Naval utilizando servicios REST.",
+        "role": "Fullstack",
+        "date": "Nov. 2016",
+        "links": [
+            {
+              "website":"Github",
+              "url":"https://github.com/Diego-Trujillo/batalla-naval",
+              "icon": "fa fa-github"
+            }
+          ],
+        "technologies": ["Node.js", "Express", "MongoDB", "JQuery", "Bootstrap"]
+      },
+      {
         "name":"PlanetZ",
-        "summary":"Planet Z is an Android 2D adventure game developed using AndEngine.",
-        "role": "Architect & developer",
+        "summary":"Videojuego Android en 2D desarrollado utilizando la librería AndEngine.",
+        "role": "Desarrollador",
         "date": "Dic. 2015",
         "links": [
             {
               "website":"Google Play",
               "url":"https://play.google.com/store/apps/details?id=mx.itesm.planetz&hl=es",
-              "icon": "fab fa-google-play"
+              "icon": "fa fa-globe"
             },
             {
               "website":"Github",
